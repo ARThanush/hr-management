@@ -1,0 +1,30 @@
+{
+    "name": "thanushan/accounting",
+    "description": "",
+    "authors": [
+        {
+            "name": "Thanushan",
+            "email": "thanushan94@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Accounting\\": "app/",
+            "Modules\\Accounting\\Database\\Factories\\": "database/factories/",
+            "Modules\\Accounting\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Accounting\\Tests\\": "tests/"
+        }
+    }
+}

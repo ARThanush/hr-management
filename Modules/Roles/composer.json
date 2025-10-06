@@ -1,0 +1,30 @@
+{
+    "name": "thanushan/roles",
+    "description": "",
+    "authors": [
+        {
+            "name": "Thanushan",
+            "email": "thanushan94@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Roles\\": "app/",
+            "Modules\\Roles\\Database\\Factories\\": "database/factories/",
+            "Modules\\Roles\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Roles\\Tests\\": "tests/"
+        }
+    }
+}
